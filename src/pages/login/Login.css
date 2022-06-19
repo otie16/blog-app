@@ -1,0 +1,57 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../../assets/images/writer.jpg");
+  background-size: cover;
+}
+
+.login-title {
+    font-size: 50px;
+    align-self: center;
+}
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form > label {
+    margin: 10px 0;
+}
+
+.login-input {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+}
+
+.login-button {
+     width: 150px;
+    align-self: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    background-color: tomato; 
+    border:none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.login-button:hover{
+}
+
+.reg-link{
+    color:rgb(248, 11, 11);
+}
