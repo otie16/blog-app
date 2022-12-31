@@ -9,7 +9,7 @@ import Write from "./pages/write/Write";
 import Register from "./pages/register/Register";
 
 const App = () => {
-  const user = true;
+  const user = false;
   return (
     <Router>
       <div className="app">
